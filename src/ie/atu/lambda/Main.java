@@ -68,7 +68,7 @@ public class Main {
         Function<String, String> combinedFunction = trimFunction.andThen(toLowerCaseFunction);
 
         // Test the combined operation
-        String input3 = "   hi, it is Monday!   ";
+        String input3 = "   Hi, it is Monday!   ";
         String result3 = combinedFunction.apply(input3);
 
         // Print the result
